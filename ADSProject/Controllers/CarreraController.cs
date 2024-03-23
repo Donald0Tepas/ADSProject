@@ -1,14 +1,16 @@
 ﻿using ADSProject.Interfaces;
 using ADSProject.Models;
+using ADSProject.Utils;
 using Microsoft.AspNetCore.Mvc;
 namespace ADSProject.Controllers
+
 {
     [Route("api/carreras/")]
     public class CarreraController : ControllerBase
     {
         private readonly ICarrera carrera;
-        private const string COD_EXITO = "000000";
-        private const string COD_ERROR = "999999";
+        public const string COD_EXITO = "000000";
+        public const string COD_ERROR = "999999";
         private string pCodRespuesta;
         private string pMensajeUsuario;
         private string pMensajeTecnico;
