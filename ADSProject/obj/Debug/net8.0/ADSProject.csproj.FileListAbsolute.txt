@@ -30,3 +30,4 @@ C:\Users\alfre\OneDrive\Documentos\CICLO 07-2024\LAB_ADSI\ADSProject\ADSProject\
 C:\Users\alfre\OneDrive\Documentos\CICLO 07-2024\LAB_ADSI\ADSProject\ADSProject\obj\Debug\net8.0\ADSProject.pdb
 C:\Users\alfre\OneDrive\Documentos\CICLO 07-2024\LAB_ADSI\ADSProject\ADSProject\obj\Debug\net8.0\ADSProject.genruntimeconfig.cache
 C:\Users\alfre\OneDrive\Documentos\CICLO 07-2024\LAB_ADSI\ADSProject\ADSProject\obj\Debug\net8.0\ref\ADSProject.dll
+C:\Users\alfre\OneDrive\Documentos\CICLO 07-2024\LAB_ADSI\ADSProject\ADSProject\obj\Debug\net8.0\ADSProject.sourcelink.json
