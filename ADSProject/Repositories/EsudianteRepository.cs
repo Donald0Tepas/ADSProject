@@ -12,14 +12,20 @@ namespace ADSProject.Repositories
             CorreoEstudiante = "PS24I04002@usonsonate.eedu.sv"
             }
       };
+       /* private readonly ApplicationDbContext applicationDbContext;
+
+        public EsudianteRepository(ApplicationDbContext applicationDbContext)
+        {
+            this.applicationDbContext = applicationDbContext;
+        }*/
         public int ActualizarEstudiante(int idEstudiante, Estudiante estudiante)
         {
             try
             {
                 int indice = lstEstudiantes.FindIndex(tmp => tmp.IdEstudiante == idEstudiante);
-
                 lstEstudiantes[indice] = estudiante;
-
+                
+                /*var item = applicationDbContext.Estudiantes.SingleOrDefaul(x => x.Id == idEstudiante);*/
                 return idEstudiante;
             }
             catch (Exception)

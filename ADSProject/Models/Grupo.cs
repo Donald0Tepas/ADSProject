@@ -4,6 +4,9 @@ namespace ADSProject.Models
 {
     public class Grupo
     {
+        public int IdGrupo { get; set; }
+
+        [Required(ErrorMessage = "Este es un campo requerido")]
 
         public int IdCarrera{  set; get; }
         [Required(ErrorMessage = "Este es un campo requerido")]
@@ -18,8 +21,5 @@ namespace ADSProject.Models
         [Required(ErrorMessage = "Este es un campo requerido")]
 
         public int Anio {  set; get; }
-        [Required(ErrorMessage = "Este es un campo requerido")]
-
-        public int IdGrupo { get; set; }
     }
 }
