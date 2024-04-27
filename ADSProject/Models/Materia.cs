@@ -1,6 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 namespace ADSProject.Models
 {
+    [PrimaryKey(nameof(NombreMateria))]
     public class Materia
     {
         public string NombreMateria { get; set; }
